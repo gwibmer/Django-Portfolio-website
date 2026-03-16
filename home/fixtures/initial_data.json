@@ -1,0 +1,350 @@
+[
+  {
+    "model": "home.herosection",
+    "pk": 1,
+    "fields": {
+      "name": "Gerardo Wibmer",
+      "typed_items": "Full-Stack Developer, AI/ML Engineer, Software Engineer, Freelancer"
+    }
+  },
+  {
+    "model": "home.aboutsection",
+    "pk": 1,
+    "fields": {
+      "description": "I'm a software engineer and AI specialist. I completed my MS in Computer Engineering at USF in December 2024, focused on building data pipelines, AI-driven tools, and full-stack applications that solve real problems. At Zweig Group, I've built survey platforms, ETL systems, and applied NLP to automate analysis for the AEC industry. As a research assistant at USF's TKAI Lab, I studied how AI note-taking tools affect human behavior — cleaning and analyzing 140,000 insurance calls, designing a controlled experiment using a Retell AI agent to simulate customer interactions, and building the UI that ran the simulation. I've also done freelance work for small businesses, including a Django-based operations automation system for a gas station chain and an OCR pipeline that processes handwritten receipts using a fine-tuned Google model and GPT, extracting structured data from 20,000+ receipts at 90% accuracy for an air conditioning company. I work across the full stack: Python, Django, React, PostgreSQL, Docker, and ML frameworks like PyTorch.",
+      "title": "AI & Full-Stack Engineer",
+      "linkedin_url": "https://www.linkedin.com/in/gwibmer/",
+      "linkedin_label": "linkedin.com/in/gwibmer",
+      "phone": "315\u2011766\u20117504",
+      "email": "gerardowibmer@gmail.com",
+      "degree": "Computer Science / Software Engineering",
+      "location": "Naples, Florida, United States",
+      "status": "Open to opportunities"
+    }
+  },
+  {
+    "model": "home.skillssection",
+    "pk": 1,
+    "fields": {
+      "description": ""
+    }
+  },
+  { "model": "home.skill", "pk": 1,  "fields": { "name": "Python",                "category": "Languages",              "order": 1 } },
+  { "model": "home.skill", "pk": 2,  "fields": { "name": "JavaScript",           "category": "Languages",              "order": 2 } },
+  { "model": "home.skill", "pk": 3,  "fields": { "name": "SQL",                  "category": "Languages",              "order": 3 } },
+  { "model": "home.skill", "pk": 4,  "fields": { "name": "C++",                  "category": "Languages",              "order": 4 } },
+  { "model": "home.skill", "pk": 5,  "fields": { "name": "HTML / CSS",           "category": "Languages",              "order": 5 } },
+  { "model": "home.skill", "pk": 6,  "fields": { "name": "Django",               "category": "Frameworks & Libraries", "order": 1 } },
+  { "model": "home.skill", "pk": 7,  "fields": { "name": "React",                "category": "Frameworks & Libraries", "order": 2 } },
+  { "model": "home.skill", "pk": 8,  "fields": { "name": "PyTorch",              "category": "Frameworks & Libraries", "order": 3 } },
+  { "model": "home.skill", "pk": 9,  "fields": { "name": "Pandas",               "category": "Frameworks & Libraries", "order": 4 } },
+  { "model": "home.skill", "pk": 10, "fields": { "name": "NumPy",                "category": "Frameworks & Libraries", "order": 5 } },
+  { "model": "home.skill", "pk": 11, "fields": { "name": "PostgreSQL",           "category": "Tools & Platforms",      "order": 1 } },
+  { "model": "home.skill", "pk": 12, "fields": { "name": "Git",                  "category": "Tools & Platforms",      "order": 2 } },
+  { "model": "home.skill", "pk": 13, "fields": { "name": "Docker",               "category": "Tools & Platforms",      "order": 3 } },
+  { "model": "home.skill", "pk": 14, "fields": { "name": "Kubernetes",           "category": "Tools & Platforms",      "order": 4 } },
+  { "model": "home.skill", "pk": 15, "fields": { "name": "Google Colab",         "category": "Tools & Platforms",      "order": 5 } },
+  { "model": "home.skill", "pk": 16, "fields": { "name": "NLP",                  "category": "AI / ML",                "order": 1 } },
+  { "model": "home.skill", "pk": 17, "fields": { "name": "LLMs",                 "category": "AI / ML",                "order": 2 } },
+  { "model": "home.skill", "pk": 18, "fields": { "name": "Sentiment Analysis",   "category": "AI / ML",                "order": 3 } },
+  { "model": "home.skill", "pk": 19, "fields": { "name": "OCR",                  "category": "AI / ML",                "order": 4 } },
+  { "model": "home.skill", "pk": 20, "fields": { "name": "Fine-tuning",          "category": "AI / ML",                "order": 5 } },
+  {
+    "model": "home.resumesummary",
+    "pk": 1,
+    "fields": {
+      "section_description": "",
+      "name": "Gerardo Wibmer",
+      "subtitle": "AI & Full-Stack Engineer \u00b7 Tampa, FL",
+      "summary_text": "Master's in Computer Engineering with hands-on experience building AI-enabled, data-driven applications. At Zweig Group and USF's TKAI Lab I've automated workflows, applied NLP to real-world datasets, and built full-stack tools using Python, Django, React, and PostgreSQL.",
+      "location": "Tampa, FL",
+      "linkedin_url": "https://www.linkedin.com/in/gwibmer/",
+      "github_url": "https://github.com/gwibmer"
+    }
+  },
+  {
+    "model": "home.education",
+    "pk": 1,
+    "fields": {
+      "degree": "MS, Computer Engineering",
+      "start_year": "Aug 2023",
+      "end_year": "Dec 2024",
+      "institution": "University of South Florida",
+      "details": "GPA 3.83",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.education",
+    "pk": 2,
+    "fields": {
+      "degree": "BS, Computer Science",
+      "start_year": "Aug 2020",
+      "end_year": "May 2023",
+      "institution": "University of South Florida",
+      "details": "GPA 3.45",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.experience",
+    "pk": 1,
+    "fields": {
+      "title": "Data and Research Analyst",
+      "start_date": "Jan 2025",
+      "end_date": "Present",
+      "company": "Zweig Group \u00b7 Naples, FL (Remote)",
+      "responsibilities": "Built an in-house survey platform to collect data across 11 industry reports in the AEC sector, replacing SurveyMonkey.\nApplied NLP techniques to fine-tune models for sentiment analysis and classification of open-ended survey responses.\nDeveloped an M&A web app allowing smaller AEC firms to buy and sell companies based on demographic and industry data.",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.experience",
+    "pk": 2,
+    "fields": {
+      "title": "Data and Research Intern",
+      "start_date": "May 2024",
+      "end_date": "Dec 2024",
+      "company": "Zweig Group \u00b7 Tampa, FL",
+      "responsibilities": "Built ETL pipelines to extract, transform, and load survey data, automating the generation of reports delivered to AEC industry clients.\nFine-tuned a GPT model to classify open-ended employee responses, providing companies with deeper insights into workforce engagement.\nDesigned and integrated a UI within the internal platform to display sentiment results, enabling intuitive interpretation of employee feedback at scale.",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.experience",
+    "pk": 3,
+    "fields": {
+      "title": "Research Assistant",
+      "start_date": "Aug 2023",
+      "end_date": "Dec 2024",
+      "company": "TKAI Lab, USF \u00b7 Tampa, FL",
+      "responsibilities": "Collected and cleaned 140,000 insurance calls, created new variables, and used sentiment analysis and statistical methods to study how an AI note-taking tool affects agent behavior.\nSet up a controlled experiment where a Retell AI agent simulated the customer side of calls, and hired participants through Prolific to act as agents, comparing behavior with and without AI present.\nBuilt a UI to run the simulation, keeping data collection consistent across all participants.",
+      "order": 3
+    }
+  },
+  {
+    "model": "home.projectssection",
+    "pk": 1,
+    "fields": {
+      "description": ""
+    }
+  },
+  {
+    "model": "home.project",
+    "pk": 1,
+    "fields": {
+      "title": "SAL: Sentiment Analysis Lens",
+      "slug": "sal-sentiment-analysis",
+      "category": "filter-ml",
+      "image_path": "img/portfolio/preview/SAL_1_preview.png",
+      "order": 1,
+      "short_description": "A Django app that analyzes employee feedback from \"Best Firms to Work For\" surveys using fine-tuned GPT-4o-mini models, providing sentiment classification, response summarization, and key theme extraction for participating companies.",
+      "full_description": "<h4>Key Features:</h4><ul><li><strong>Sentiment Classification:</strong> Categorizes responses as Positive, Negative, or Outliers</li><li><strong>Category Summarization:</strong> Generates summaries for six survey categories using fine-tuned models</li><li><strong>Overlap Detection:</strong> Identifies responses related to multiple categories</li><li><strong>Strengths &amp; Weaknesses Analysis:</strong> Extracts top three positive and negative themes</li><li><strong>User-Friendly Interface:</strong> Frontend displaying sentiment breakdowns and insights</li></ul>",
+      "info_category": "Machine Learning & Data Analysis",
+      "info_client": "Zweig Group",
+      "info_date": "2024",
+      "info_technologies": "Django, GPT-4o-mini, Python, OpenAI API",
+      "info_role": "AI Engineer & Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 1,
+    "fields": { "project": 1, "image_path": "img/portfolio/slider/SAL_1_slider.png", "order": 1 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 2,
+    "fields": { "project": 1, "image_path": "img/portfolio/slider/SAL_2_slider.png", "order": 2 }
+  },
+  {
+    "model": "home.project",
+    "pk": 2,
+    "fields": {
+      "title": "Real-Time Insurance Call Simulator",
+      "slug": "insurance-call-simulator",
+      "category": "filter-ml",
+      "image_path": "img/portfolio/preview/Insurance_home_Screen_preview.png",
+      "order": 2,
+      "short_description": "A real-time conversation simulator where an AI bot acts as the customer and human agents follow a guided script. Built to study how agents perform when they know an AI is monitoring the interaction.",
+      "full_description": "<h4>Study Goals:</h4><ul><li><strong>Behavioral Insights:</strong> Observe how agent behavior changes with AI monitoring.</li><li><strong>Script Adherence:</strong> Measure compliance to scripted flows and disclosures.</li><li><strong>Quality Metrics:</strong> Track empathy, clarity, and resolution effectiveness.</li></ul><h4>Core Features:</h4><ul><li><strong>Realtime Dialog:</strong> WebRTC/GPT real-time voice for natural, low-latency calls.</li><li><strong>Agent App:</strong> Agents initiate sessions and follow study scripts with prompts.</li><li><strong>Scenario Control:</strong> Vary customer intents, objections, and policy constraints.</li><li><strong>Analytics:</strong> Conversation transcripts, scoring, and insight dashboards.</li></ul>",
+      "info_category": "Machine Learning & Conversational AI",
+      "info_client": "",
+      "info_date": "2025",
+      "info_technologies": "Django, GPT Realtime API, WebRTC, Retell AI",
+      "info_role": "AI Engineer & Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 3,
+    "fields": { "project": 2, "image_path": "img/portfolio/slider/Insurance_home_Screen_slider.png", "order": 1 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 4,
+    "fields": { "project": 2, "image_path": "img/portfolio/slider/Insurance_call_screen_slider.png", "order": 2 }
+  },
+  {
+    "model": "home.project",
+    "pk": 3,
+    "fields": {
+      "title": "User Management Dashboard",
+      "slug": "user-management-dashboard",
+      "category": "filter-django",
+      "image_path": "img/portfolio/preview/user_man_purchased_preview.png",
+      "order": 3,
+      "short_description": "An admin dashboard that gives company administrators centralized control over user access, permissions, and platform module visibility — solving a critical security gap where no such oversight existed.",
+      "full_description": "<h4>Key Features:</h4><ul><li><strong>User Access Control:</strong> Manage user access to different platform modules (BFTWF surveys, CDP reports, AI sentiment analysis)</li><li><strong>Role-Based Permissions:</strong> Control administrative privileges and user roles based on organizational hierarchy</li><li><strong>User Activity Monitoring:</strong> Track user activity, account status, and platform usage</li><li><strong>Security Management:</strong> Verify user email addresses and manage account activation</li><li><strong>Organizational Oversight:</strong> Centralized dashboard for all user management operations</li></ul>",
+      "info_category": "Web Development & Admin Dashboard",
+      "info_client": "Zweig Group",
+      "info_date": "2024",
+      "info_technologies": "Django, Python, HTML/CSS, JavaScript",
+      "info_role": "Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 5,
+    "fields": { "project": 3, "image_path": "img/portfolio/admin_post_purchase.png", "order": 1 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 6,
+    "fields": { "project": 3, "image_path": "img/portfolio/admin_profile.png", "order": 2 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 7,
+    "fields": { "project": 3, "image_path": "img/portfolio/admin_pre_purchase.png", "order": 3 }
+  },
+  {
+    "model": "home.project",
+    "pk": 4,
+    "fields": {
+      "title": "Admin/Excel Automation for Ancap",
+      "slug": "ancap-automation",
+      "category": "filter-django",
+      "image_path": "img/portfolio/preview/Ancap_consolidate_preview.png",
+      "order": 4,
+      "short_description": "A Django web app built for a gas station chain in Uruguay to automate their mini market operations — replacing a manual Excel-based workflow that took hours each semester.",
+      "full_description": "<h3>What it does</h3><p>Staff upload their semester sales and purchase Excel files through the app. The system processes and joins the data using Pandas, runs the calculations automatically, and surfaces the results in a clean dashboard — showing best and worst performing products, margins, and purchase patterns. What used to take hours now takes minutes.</p><h3>Features</h3><ul><li>Excel file upload and automated processing with Pandas</li><li>Joins sales and purchase data across multiple sources</li><li>Identifies underperforming and top-selling products</li><li>Calculates margins and profitability per product</li><li>Export results to Excel or CSV</li><li>Django admin interface for managing data and users</li></ul><h3>Stack</h3><ul><li>Django, PostgreSQL, Pandas</li><li>Custom Django admin with role-based access</li></ul>",
+      "info_category": "Django Web Application",
+      "info_client": "Ancap",
+      "info_date": "2024",
+      "info_technologies": "Django, PostgreSQL, Pandas",
+      "info_role": "Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 8,
+    "fields": { "project": 4, "image_path": "img/portfolio/slider/Ancap_consolidate_slider.png", "order": 1 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 9,
+    "fields": { "project": 4, "image_path": "img/portfolio/slider/Ancap_login_slider.png", "order": 2 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 10,
+    "fields": { "project": 4, "image_path": "img/portfolio/slider/Ancap_analisis_1_slider.png", "order": 3 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 11,
+    "fields": { "project": 4, "image_path": "img/portfolio/slider/Ancap_analisis_2_slider.png", "order": 4 }
+  },
+  {
+    "model": "home.project",
+    "pk": 5,
+    "fields": {
+      "title": "Django Survey & Report (AI)",
+      "slug": "django-survey-report",
+      "category": "filter-django",
+      "image_path": "img/portfolio/preview/survey_1_preview.png",
+      "order": 5,
+      "short_description": "A full-featured Django app for creating, managing, and analyzing surveys with AI-powered report generation.",
+      "full_description": "<h4>Key Features</h4><ul><li><strong>Survey Creation:</strong> Build surveys with multiple question types, categories, and validation rules.</li><li><strong>Multi-language:</strong> 12+ languages (EN, FR, DE, ES, ZH, JA, ...).</li><li><strong>Advanced Reporting:</strong> Export CSV or generate professional PDF via LaTeX.</li><li><strong>Visual Analytics:</strong> Pie, polar, Sankey, and custom charts.</li><li><strong>AI Integration:</strong> GPT-powered survey generation capabilities.</li><li><strong>Survey Builder:</strong> Drag-and-drop interface.</li><li><strong>Response Management:</strong> Track and analyze responses with detailed reporting.</li></ul>",
+      "info_category": "Django Web Application",
+      "info_client": "",
+      "info_date": "2025",
+      "info_technologies": "Django, PostgreSQL, Celery, GPT, LaTeX",
+      "info_role": "Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 12,
+    "fields": { "project": 5, "image_path": "img/portfolio/slider/survey_3_slider.png", "order": 1 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 13,
+    "fields": { "project": 5, "image_path": "img/portfolio/slider/survey_4_slider.png", "order": 2 }
+  },
+  {
+    "model": "home.project",
+    "pk": 6,
+    "fields": {
+      "title": "Reroom: GPT Room Material Swapper",
+      "slug": "reroom",
+      "category": "filter-django",
+      "image_path": "img/portfolio/preview/re_room_1_preview.png",
+      "order": 6,
+      "short_description": "A Django app that lets users upload photos of their rooms and virtually swap wall paints and floor tiles using GPT image capabilities.",
+      "full_description": "<h4>Key Features:</h4><ul><li><strong>Image Uploads:</strong> Users upload room photos in common formats (JPG/PNG).</li><li><strong>Material Library:</strong> Predefined wall and floor samples for quick try-ons.</li><li><strong>Reference-Based Swap:</strong> Upload a reference room/tile to match style and color.</li><li><strong>Guided GPT Flow:</strong> GPT assists with material selection and transformation prompts.</li><li><strong>Export:</strong> Download transformed images for sharing or saving.</li></ul>",
+      "info_category": "Django Web Application",
+      "info_client": "",
+      "info_date": "2025",
+      "info_technologies": "Django, OpenAI GPT, CV/Segmentation",
+      "info_role": "Full-Stack & AI Engineer"
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 14,
+    "fields": { "project": 6, "image_path": "img/portfolio/slider/re_room_1_slider.png", "order": 1 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 15,
+    "fields": { "project": 6, "image_path": "img/portfolio/slider/re_room_2_slider.png", "order": 2 }
+  },
+  {
+    "model": "home.project",
+    "pk": 7,
+    "fields": {
+      "title": "OCR PDF Extractor",
+      "slug": "ocr-pdf-extractor",
+      "category": "filter-ml",
+      "image_path": "img/portfolio/preview/OCR_preview.png",
+      "order": 7,
+      "short_description": "An OCR pipeline that processes handwritten receipts using a fine-tuned Google model and GPT, extracting structured data from 20,000+ receipts at 90% accuracy for an air conditioning company.",
+      "full_description": "<h4>Key Capabilities:</h4><ul><li><strong>OCR Pipeline:</strong> Fine-tuned Google model with GPT post-processing for handwritten receipts.</li><li><strong>Targeted Extraction:</strong> Pulls structured fields (dates, amounts, items) from unstructured handwritten input.</li><li><strong>Scale:</strong> Processes 20,000+ receipts at ~90% accuracy.</li><li><strong>Validation:</strong> Confidence thresholds and rule checks to flag anomalies.</li><li><strong>Export:</strong> CSV/Excel output for downstream reporting.</li></ul>",
+      "info_category": "Machine Learning & OCR",
+      "info_client": "Air Conditioning Company",
+      "info_date": "2025",
+      "info_technologies": "Python, Google Document AI, GPT, Django",
+      "info_role": "AI Engineer & Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 16,
+    "fields": { "project": 7, "image_path": "img/portfolio/slider/OCR_slider.png", "order": 1 }
+  },
+  {
+    "model": "home.contactsection",
+    "pk": 1,
+    "fields": {
+      "description": "Thank you for visiting and spending your valuable time here. I hope you found what you were looking for.\n\nI am always open to work on challenging projects and put my skills to use. If you are in need of someone with my skills and experience, please don't hesitate to contact me. I am confident that I can contribute value to your team and help achieve your business goals.\n\nI look forward to hearing from you soon.",
+      "location": "Naples, Florida, United States",
+      "email": "gerardowibmer@gmail.com",
+      "phone": "315-766-7504",
+      "linkedin_url": "https://www.linkedin.com/in/gwibmer/",
+      "linkedin_label": "linkedin.com/in/gwibmer"
+    }
+  }
+]

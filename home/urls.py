@@ -1,41 +1,13 @@
-"""portfolio URL Configuration
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/4.1/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
 from django.contrib import admin
 from django.urls import path
 from home import views
 
-
-
-# django admin changes
-admin.site.site_header = "Login to Burhan"
-admin.site.site_title = "Welocom to DashBord"
-admin.site.index_title = "Welocom to Portal"
-
-
+admin.site.site_header = "Gerardo Wibmer Portfolio"
+admin.site.site_title = "Portfolio Admin"
+admin.site.index_title = "Welcome to the Admin Portal"
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('project', views.project, name='project'),
-    path('user-management-dashboard', views.user_management_dashboard, name='user_management_dashboard'),
-    path('ancap-automation', views.ancap_automation, name='ancap_automation'),
-    path('reroom', views.reroom, name='reroom'),
-    path('insurance-call-simulator', views.insurance_call_simulator, name='insurance_call_simulator'),
-    path('ocr-pdf-extractor', views.ocr_pdf_extractor, name='ocr_pdf_extractor'),
-    path('survey-creator', views.survey_creator, name='survey_creator'),
+    path('projects/<slug:slug>/', views.project_detail, name='project_detail'),
     path('#contact', views.contact, name='contact'),
-    # path('skills', views.skills, name='skills'),
-    # path('contact', views.contact, name='contact'),
 ]
