@@ -135,7 +135,7 @@
     "fields": {
       "title": "SAL: Sentiment Analysis Lens",
       "slug": "sal-sentiment-analysis",
-      "category": "filter-ml",
+      "category": "filter-zweig",
       "image_path": "img/portfolio/preview/SAL_1_preview.png",
       "order": 1,
       "short_description": "A Django app that analyzes employee feedback from \"Best Firms to Work For\" surveys using fine-tuned GPT-4o-mini models, providing sentiment classification, response summarization, and key theme extraction for participating companies.",
@@ -149,29 +149,29 @@
   },
   {
     "model": "home.projectimage",
-    "pk": 1,
-    "fields": { "project": 1, "image_path": "img/portfolio/slider/SAL_1_slider.png", "order": 1 }
+    "pk": 17,
+    "fields": { "project": 1, "image_path": "img/portfolio/slider/SAL_3_slider.png", "order": 1 }
   },
   {
     "model": "home.projectimage",
-    "pk": 2,
-    "fields": { "project": 1, "image_path": "img/portfolio/slider/SAL_2_slider.png", "order": 2 }
+    "pk": 18,
+    "fields": { "project": 1, "image_path": "img/portfolio/slider/SAL_4_slider.png", "order": 2 }
   },
   {
     "model": "home.project",
     "pk": 2,
     "fields": {
-      "title": "Real-Time Insurance Call Simulator",
-      "slug": "insurance-call-simulator",
-      "category": "filter-ml",
+      "title": "Voice AI Note-Taking Study",
+      "slug": "voice-ai-note-taking-study",
+      "category": "filter-research",
       "image_path": "img/portfolio/preview/Insurance_home_Screen_preview.png",
       "order": 2,
-      "short_description": "A real-time conversation simulator where an AI bot acts as the customer and human agents follow a guided script. Built to study how agents perform when they know an AI is monitoring the interaction.",
-      "full_description": "<h4>Study Goals:</h4><ul><li><strong>Behavioral Insights:</strong> Observe how agent behavior changes with AI monitoring.</li><li><strong>Script Adherence:</strong> Measure compliance to scripted flows and disclosures.</li><li><strong>Quality Metrics:</strong> Track empathy, clarity, and resolution effectiveness.</li></ul><h4>Core Features:</h4><ul><li><strong>Realtime Dialog:</strong> WebRTC/GPT real-time voice for natural, low-latency calls.</li><li><strong>Agent App:</strong> Agents initiate sessions and follow study scripts with prompts.</li><li><strong>Scenario Control:</strong> Vary customer intents, objections, and policy constraints.</li><li><strong>Analytics:</strong> Conversation transcripts, scoring, and insight dashboards.</li></ul>",
+      "short_description": "A research project studying how an AI agent behaves in a voice-based hiring workflow across three note-taking conditions, using Retell AI to simulate realistic call scenarios. Data collection is currently in progress.",
+      "full_description": "<h4>Experimental Design:</h4><ul><li><strong>Condition 1:</strong> No AI note-taking — baseline agent behavior with no memory assistance.</li><li><strong>Condition 2:</strong> AI note-taking enabled — agent has access to AI-generated call notes.</li><li><strong>Condition 3:</strong> Alternate note setup — a second baseline for comparison.</li></ul><h4>Key Behaviors Tracked:</h4><ul><li><strong>Memory Retention:</strong> Whether the agent retains key details across turns without re-asking or contradicting itself.</li><li><strong>Information Handling:</strong> Whether the agent asks for missing information vs. guessing.</li><li><strong>Decision Consistency:</strong> Whether the agent follows hiring decision rules consistently across scenarios.</li><li><strong>Adaptability:</strong> How the agent recovers when the customer introduces new or conflicting requirements.</li></ul><p><em>Data collection is currently in progress. Participants are being recruited via Prolific, and Retell's standardized customer role ensures scenario consistency across all three conditions.</em></p>",
       "info_category": "Machine Learning & Conversational AI",
       "info_client": "",
       "info_date": "2025",
-      "info_technologies": "Django, GPT Realtime API, WebRTC, Retell AI",
+      "info_technologies": "Django, Retell AI, Prolific, Python",
       "info_role": "AI Engineer & Full-Stack Developer"
     }
   },
@@ -191,7 +191,7 @@
     "fields": {
       "title": "User Management Dashboard",
       "slug": "user-management-dashboard",
-      "category": "filter-django",
+      "category": "filter-zweig",
       "image_path": "img/portfolio/preview/user_man_purchased_preview.png",
       "order": 3,
       "short_description": "An admin dashboard that gives company administrators centralized control over user access, permissions, and platform module visibility — solving a critical security gap where no such oversight existed.",
@@ -205,18 +205,13 @@
   },
   {
     "model": "home.projectimage",
-    "pk": 5,
-    "fields": { "project": 3, "image_path": "img/portfolio/admin_post_purchase.png", "order": 1 }
-  },
-  {
-    "model": "home.projectimage",
     "pk": 6,
-    "fields": { "project": 3, "image_path": "img/portfolio/admin_profile.png", "order": 2 }
+    "fields": { "project": 3, "image_path": "img/portfolio/slider/user_man_profile_slider.png", "order": 2 }
   },
   {
     "model": "home.projectimage",
     "pk": 7,
-    "fields": { "project": 3, "image_path": "img/portfolio/admin_pre_purchase.png", "order": 3 }
+    "fields": { "project": 3, "image_path": "img/portfolio/slider/user_man_not_purchased_slider.png", "order": 3 }
   },
   {
     "model": "home.project",
@@ -224,11 +219,11 @@
     "fields": {
       "title": "Admin/Excel Automation for Ancap",
       "slug": "ancap-automation",
-      "category": "filter-django",
+      "category": "filter-freelance",
       "image_path": "img/portfolio/preview/Ancap_consolidate_preview.png",
       "order": 4,
       "short_description": "A Django web app built for a gas station chain in Uruguay to automate their mini market operations — replacing a manual Excel-based workflow that took hours each semester.",
-      "full_description": "<h3>What it does</h3><p>Staff upload their semester sales and purchase Excel files through the app. The system processes and joins the data using Pandas, runs the calculations automatically, and surfaces the results in a clean dashboard — showing best and worst performing products, margins, and purchase patterns. What used to take hours now takes minutes.</p><h3>Features</h3><ul><li>Excel file upload and automated processing with Pandas</li><li>Joins sales and purchase data across multiple sources</li><li>Identifies underperforming and top-selling products</li><li>Calculates margins and profitability per product</li><li>Export results to Excel or CSV</li><li>Django admin interface for managing data and users</li></ul><h3>Stack</h3><ul><li>Django, PostgreSQL, Pandas</li><li>Custom Django admin with role-based access</li></ul>",
+      "full_description": "<h3>What it does</h3><p>Staff upload their semester sales and purchase Excel files through the app. The system processes and joins the data using Pandas, runs the calculations automatically, and surfaces the results in a clean dashboard — showing best and worst performing products, margins, and purchase patterns. What used to take hours now takes minutes.</p><h3>Features</h3><ul><li>Excel file upload and automated processing with Pandas</li><li>Joins sales and purchase data across multiple sources</li><li>Identifies underperforming and top-selling products</li><li>Calculates margins and profitability per product</li><li>Export results to Excel or CSV</li><li>Django admin interface for managing data and users</li></ul>",
       "info_category": "Django Web Application",
       "info_client": "Ancap",
       "info_date": "2024",
@@ -262,7 +257,7 @@
     "fields": {
       "title": "Django Survey & Report (AI)",
       "slug": "django-survey-report",
-      "category": "filter-django",
+      "category": "filter-personal",
       "image_path": "img/portfolio/preview/survey_1_preview.png",
       "order": 5,
       "short_description": "A full-featured Django app for creating, managing, and analyzing surveys with AI-powered report generation.",
@@ -290,7 +285,7 @@
     "fields": {
       "title": "Reroom: GPT Room Material Swapper",
       "slug": "reroom",
-      "category": "filter-django",
+      "category": "filter-personal",
       "image_path": "img/portfolio/preview/re_room_1_preview.png",
       "order": 6,
       "short_description": "A Django app that lets users upload photos of their rooms and virtually swap wall paints and floor tiles using GPT image capabilities.",
@@ -318,7 +313,7 @@
     "fields": {
       "title": "OCR PDF Extractor",
       "slug": "ocr-pdf-extractor",
-      "category": "filter-ml",
+      "category": "filter-freelance",
       "image_path": "img/portfolio/preview/OCR_preview.png",
       "order": 7,
       "short_description": "An OCR pipeline that processes handwritten receipts using a fine-tuned Google model and GPT, extracting structured data from 20,000+ receipts at 90% accuracy for an air conditioning company.",
@@ -334,6 +329,77 @@
     "model": "home.projectimage",
     "pk": 16,
     "fields": { "project": 7, "image_path": "img/portfolio/slider/OCR_slider.png", "order": 1 }
+  },
+  {
+    "model": "home.project",
+    "pk": 8,
+    "fields": {
+      "title": "Corporate Survey",
+      "slug": "corporate-survey",
+      "category": "filter-zweig",
+      "image_path": "img/portfolio/preview/corporate_survey_preview.png",
+      "order": 8,
+      "short_description": "An in-app Corporate Survey system that replaced a $30,000/year SurveyMonkey subscription — giving company administrators a structured, organization-level way to collect workforce feedback entirely in-house.",
+      "full_description": "<p>Built to replace a <strong>$30,000/year SurveyMonkey subscription</strong> — the entire survey workflow now runs in-house, from creation to response collection and reporting.</p><h4>Key Features:</h4><ul><li><strong>Organization-Level Surveys:</strong> Create and manage published corporate surveys by year, with categories, questions, choices, and multi-field question support.</li><li><strong>Role-Based Survey Access:</strong> Control who can take corporate surveys via per-user organization access (staff can view/update everything).</li><li><strong>Admin Dashboard for Progress:</strong> Track response status (draft, in_progress, completed), filter by survey, and monitor completion and required questions at a glance.</li><li><strong>Survey Studio Tools:</strong> Copy existing surveys, reorder questions, and edit the full survey structure including choices and fields.</li><li><strong>Excel Import/Export:</strong> Import survey structure and optionally responses using a SurveyMonkey-style 2-row header format; export responses back to Excel.</li><li><strong>PDF Downloads:</strong> Generate preview PDFs for surveys and formatted response PDFs per organization.</li><li><strong>Change Detection on Submit:</strong> Uses a deterministic answers hash to warn on unchanged submissions and supports force resubmit.</li></ul>",
+      "info_category": "Django Web Application",
+      "info_client": "Zweig Group",
+      "info_date": "2026",
+      "info_technologies": "Django, PostgreSQL, Python, Pandas, LaTeX",
+      "info_role": "Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 19,
+    "fields": { "project": 8, "image_path": "img/portfolio/slider/corporate_survey_1_slider.png", "order": 1 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 20,
+    "fields": { "project": 8, "image_path": "img/portfolio/slider/corporate_survey_2_slider.png", "order": 2 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 21,
+    "fields": { "project": 8, "image_path": "img/portfolio/slider/corporate_survey_3_slider.png", "order": 3 }
+  },
+  {
+    "model": "home.project",
+    "pk": 9,
+    "fields": {
+      "title": "Pickleball Video Coaching",
+      "slug": "pickleball-video-coaching",
+      "category": "filter-personal",
+      "image_path": "img/portfolio/preview/pickleball_preview.png",
+      "order": 9,
+      "short_description": "An in-app Pickleball Video Coaching platform that helps coaches review client submissions with timestamped annotations, drawings, and structured feedback, while clients track goals and progress in one place.",
+      "full_description": "<p>Built to replace scattered video review workflows by keeping coaching, practice assignments, and improvement metrics connected — from video uploads and compare/reference clips to goals, skill progress, and achievement tracking.</p><h4>Key Features:</h4><ul><li><strong>Coach + Client Roles:</strong> Coach-driven review workflow; client sees published annotations and their progress.</li><li><strong>Video Review Workflow:</strong> Videos move through statuses like pending, reviewed, and needs_revision.</li><li><strong>Timestamped Annotations:</strong> Coach adds notes and drawing data to specific moments, then publishes.</li><li><strong>Threaded Annotation Replies:</strong> Follow-up feedback stays tied to the original timestamp.</li><li><strong>Compare Clips + Coach Cam Overlays:</strong> Upload reference footage and PiP coach recordings that appear at set times.</li><li><strong>Goal and Task Tracking:</strong> Client progress (0–100) with goal completion and coach-managed tasks.</li><li><strong>Skill Progress + Milestones:</strong> Quantified improvement across stored skill levels and achievements.</li><li><strong>Pro Video Library + Recommendations:</strong> Coaches curate pro content by category and send targeted picks.</li></ul>",
+      "info_category": "Django Web Application",
+      "info_client": "",
+      "info_date": "2026",
+      "info_technologies": "Django, PostgreSQL, Python, JavaScript",
+      "info_role": "Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 22,
+    "fields": { "project": 9, "image_path": "img/portfolio/slider/pickleball_1_slider.png", "order": 1 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 23,
+    "fields": { "project": 9, "image_path": "img/portfolio/slider/pickleball_2_slider.png", "order": 2 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 24,
+    "fields": { "project": 9, "image_path": "img/portfolio/slider/pickleball_3_slider.png", "order": 3 }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 25,
+    "fields": { "project": 9, "image_path": "img/portfolio/slider/pickleball_4_slider.png", "order": 4 }
   },
   {
     "model": "home.contactsection",
