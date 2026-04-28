@@ -583,7 +583,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(20, 157, 221, 0.55);
   position: absolute;
   left: 0;
   right: 0;
@@ -592,6 +592,25 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+}
+
+.portfolio .portfolio-wrap::after {
+  content: "View Project →";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.85);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  z-index: 4;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+  background: rgba(20, 157, 221, 0.9);
+  padding: 10px 20px;
+  border-radius: 4px;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -629,6 +648,16 @@ section {
   right: 0;
   bottom: 0;
   opacity: 1;
+}
+
+.portfolio .portfolio-wrap:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.portfolio a.portfolio-wrap {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {

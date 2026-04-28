@@ -304,7 +304,6 @@
               <li data-filter=".filter-zweig">Zweig Group</li>
               <li data-filter=".filter-freelance">Freelancing</li>
               <li data-filter=".filter-personal">Personal Projects</li>
-              <li data-filter=".filter-research">Academic Research</li>
             </ul>
           </div>
         </div>
@@ -313,28 +312,12 @@
 
           {% for project in projects %}
           <div class="col-lg-4 col-md-6 portfolio-item {{ project.category }}">
-            <div class="portfolio-wrap">
+            <a href="/projects/{{ project.slug }}/" class="portfolio-wrap d-block">
               <img src="{% static project.image_path %}" class="img-fluid" alt="{{ project.title }}">
               <div class="portfolio-info">
                 <h4>{{ project.title }}</h4>
               </div>
-              <div class="portfolio-links">
-                <a href="{% static project.image_path %}" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="{{ project.title }}"><i class="bx bx-plus"></i></a>
-                <a href="/projects/{{ project.slug }}/" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-          {% empty %}
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
-            <div class="portfolio-wrap">
-              <img src="{% static 'img/portfolio/preview/SAL_1_preview.png' %}" class="img-fluid" alt="">
-              <div class="portfolio-info"><h4>SAL: Sentiment Analysis Lens</h4></div>
-              <div class="portfolio-links">
-                <a href="{% static 'img/portfolio/preview/SAL_1_preview.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SAL"><i class="bx bx-plus"></i></a>
-                <a href="/project" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
+            </a>
           </div>
           {% endfor %}
 
