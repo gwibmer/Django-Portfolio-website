@@ -11,7 +11,7 @@
   "model": "home.aboutsection",
   "pk": 1,
   "fields": {
-    "description": "I'm a software engineer and AI specialist with an MS in Computer Engineering from USF (December 2024). I build data pipelines, AI-driven tools, and full-stack applications across Python, Django, React, PostgreSQL, Docker, and PyTorch. I also design and deploy agentic AI pipelines — multi-step systems where LLMs reason, use tools, and act autonomously to complete complex tasks. My experience spans industry research, enterprise software, and freelance projects for small businesses.",
+    "description": "I'm a software engineer with an MS in Computer Engineering from USF (December 2024). I build data pipelines, full-stack web apps, and AI tools using Python, Django, React, PostgreSQL, and Docker. I also work on agentic AI pipelines — multi-step systems where models reason through problems and take action autonomously. I've shipped projects across research, enterprise software, and small business freelance work.",
     "title": "AI & Full-Stack Engineer",
     "linkedin_url": "https://www.linkedin.com/in/gwibmer/",
     "linkedin_label": "linkedin.com/in/gwibmer",
