@@ -11,7 +11,7 @@
   "model": "home.aboutsection",
   "pk": 1,
   "fields": {
-    "description": "I'm a software engineer and AI specialist. I completed my MS in Computer Engineering at USF in December 2024, focused on building data pipelines, AI-driven tools, and full-stack applications that solve real problems. At Zweig Group, I've built survey platforms, ETL systems, and applied NLP to automate analysis for the AEC industry. As a research assistant at USF's TKAI Lab, I studied how AI note-taking tools affect human behavior — cleaning and analyzing 140,000 insurance calls, designing a controlled experiment using a Retell AI agent to simulate customer interactions, and building the UI that ran the simulation. I've also done freelance work for small businesses, including a Django-based operations automation system for a gas station chain and an OCR pipeline that processes handwritten receipts using a fine-tuned Google model and GPT, extracting structured data from 20,000+ receipts at 90% accuracy for an air conditioning company. I work across the full stack: Python, Django, React, PostgreSQL, Docker, and ML frameworks like PyTorch.",
+    "description": "I'm a software engineer and AI specialist with an MS in Computer Engineering from USF (December 2024). I build data pipelines, AI-driven tools, and full-stack applications across Python, Django, React, PostgreSQL, Docker, and PyTorch. My experience spans industry research, enterprise software, and freelance projects for small businesses.",
     "title": "AI & Full-Stack Engineer",
     "linkedin_url": "https://www.linkedin.com/in/gwibmer/",
     "linkedin_label": "linkedin.com/in/gwibmer",
@@ -54,15 +54,6 @@
     "name": "SQL",
     "category": "Languages",
     "order": 3
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 4,
-  "fields": {
-    "name": "C++",
-    "category": "Languages",
-    "order": 4
   }
 },
 {
