@@ -662,7 +662,7 @@
   "model": "home.contactsection",
   "pk": 1,
   "fields": {
-    "description": "Thank you for visiting and spending your valuable time here. I hope you found what you were looking for.\n\nI am always open to work on challenging projects and put my skills to use. If you are in need of someone with my skills and experience, please don't hesitate to contact me. I am confident that I can contribute value to your team and help achieve your business goals.\n\nI look forward to hearing from you soon.",
+    "description": "Feel free to reach out — whether it's a project, a question, or just to connect.",
     "location": "Naples, Florida, United States",
     "email": "gerardowibmer@gmail.com",
     "phone": "315-766-7504",
