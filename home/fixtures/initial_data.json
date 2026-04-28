@@ -1,673 +1,673 @@
 [
-{
-  "model": "home.herosection",
-  "pk": 1,
-  "fields": {
-    "name": "Gerardo Wibmer",
-    "typed_items": "Full-Stack Developer, AI/ML Engineer, Software Engineer, Freelancer"
+  {
+    "model": "home.herosection",
+    "pk": 1,
+    "fields": {
+      "name": "Gerardo Wibmer",
+      "typed_items": "Full-Stack Developer, AI/ML Engineer, Software Engineer, Freelancer"
+    }
+  },
+  {
+    "model": "home.aboutsection",
+    "pk": 1,
+    "fields": {
+      "description": "I'm a software engineer with an MS in Computer Engineering from USF (December 2024). I build data pipelines, full-stack web apps, and AI tools using Python, Django, React, PostgreSQL, and Docker. I also work on agentic AI pipelines — multi-step systems where models reason through problems and take action autonomously. I've shipped projects across research, enterprise software, and small business freelance work.",
+      "title": "AI & Full-Stack Engineer",
+      "linkedin_url": "https://www.linkedin.com/in/gwibmer/",
+      "linkedin_label": "linkedin.com/in/gwibmer",
+      "phone": "315‑766‑7504",
+      "email": "gerardowibmer@gmail.com",
+      "degree": "Computer Science / Software Engineering",
+      "location": "Naples, Florida, United States",
+      "status": ""
+    }
+  },
+  {
+    "model": "home.skillssection",
+    "pk": 1,
+    "fields": {
+      "description": ""
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 1,
+    "fields": {
+      "name": "Python",
+      "category": "Languages",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 2,
+    "fields": {
+      "name": "JavaScript",
+      "category": "Languages",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 3,
+    "fields": {
+      "name": "SQL",
+      "category": "Languages",
+      "order": 3
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 5,
+    "fields": {
+      "name": "HTML / CSS",
+      "category": "Languages",
+      "order": 5
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 6,
+    "fields": {
+      "name": "Django",
+      "category": "Frameworks & Libraries",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 7,
+    "fields": {
+      "name": "React",
+      "category": "Frameworks & Libraries",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 8,
+    "fields": {
+      "name": "PyTorch",
+      "category": "Frameworks & Libraries",
+      "order": 3
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 9,
+    "fields": {
+      "name": "Pandas",
+      "category": "Frameworks & Libraries",
+      "order": 4
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 10,
+    "fields": {
+      "name": "NumPy",
+      "category": "Frameworks & Libraries",
+      "order": 5
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 11,
+    "fields": {
+      "name": "PostgreSQL",
+      "category": "Tools & Platforms",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 12,
+    "fields": {
+      "name": "Git",
+      "category": "Tools & Platforms",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 13,
+    "fields": {
+      "name": "Docker",
+      "category": "Tools & Platforms",
+      "order": 3
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 14,
+    "fields": {
+      "name": "Kubernetes",
+      "category": "Tools & Platforms",
+      "order": 4
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 15,
+    "fields": {
+      "name": "Google Colab",
+      "category": "Tools & Platforms",
+      "order": 5
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 16,
+    "fields": {
+      "name": "NLP",
+      "category": "AI / ML",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 17,
+    "fields": {
+      "name": "LLMs",
+      "category": "AI / ML",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 18,
+    "fields": {
+      "name": "Sentiment Analysis",
+      "category": "AI / ML",
+      "order": 3
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 19,
+    "fields": {
+      "name": "OCR",
+      "category": "AI / ML",
+      "order": 4
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 20,
+    "fields": {
+      "name": "Fine-tuning",
+      "category": "AI / ML",
+      "order": 5
+    }
+  },
+  {
+    "model": "home.skill",
+    "pk": 21,
+    "fields": {
+      "name": "Power BI",
+      "category": "Tools & Platforms",
+      "order": 6
+    }
+  },
+  {
+    "model": "home.resumesummary",
+    "pk": 1,
+    "fields": {
+      "section_description": "",
+      "name": "Gerardo Wibmer",
+      "subtitle": "AI & Full-Stack Engineer · Tampa, FL",
+      "summary_text": "Master's in Computer Engineering with hands-on experience building AI-enabled, data-driven applications. At Zweig Group and USF's TKAI Lab I've automated workflows, applied NLP to real-world datasets, and built full-stack tools using Python, Django, React, and PostgreSQL.",
+      "location": "Tampa, FL",
+      "linkedin_url": "https://www.linkedin.com/in/gwibmer/",
+      "github_url": "https://github.com/gwibmer"
+    }
+  },
+  {
+    "model": "home.education",
+    "pk": 1,
+    "fields": {
+      "degree": "MS, Computer Engineering",
+      "start_year": "Aug 2023",
+      "end_year": "Dec 2024",
+      "institution": "University of South Florida",
+      "details": "GPA 3.83",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.education",
+    "pk": 2,
+    "fields": {
+      "degree": "BS, Computer Science",
+      "start_year": "Aug 2020",
+      "end_year": "May 2023",
+      "institution": "University of South Florida",
+      "details": "GPA 3.45",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.experience",
+    "pk": 1,
+    "fields": {
+      "title": "Data and Research Analyst",
+      "start_date": "Jan 2025",
+      "end_date": "Present",
+      "company": "Zweig Group · Naples, FL (Remote)",
+      "responsibilities": "Built an in-house survey platform to collect data across 11 industry reports in the AEC sector, replacing SurveyMonkey.\nApplied NLP techniques to fine-tune models for sentiment analysis and classification of open-ended survey responses.\nDeveloped an M&A web app allowing smaller AEC firms to buy and sell companies based on demographic and industry data.",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.experience",
+    "pk": 2,
+    "fields": {
+      "title": "Data and Research Intern",
+      "start_date": "May 2024",
+      "end_date": "Dec 2024",
+      "company": "Zweig Group · Tampa, FL",
+      "responsibilities": "Built ETL pipelines to extract, transform, and load survey data, automating the generation of reports delivered to AEC industry clients.\nFine-tuned a GPT model to classify open-ended employee responses, providing companies with deeper insights into workforce engagement.\nDesigned and integrated a UI within the internal platform to display sentiment results, enabling intuitive interpretation of employee feedback at scale.",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.experience",
+    "pk": 3,
+    "fields": {
+      "title": "Research Assistant",
+      "start_date": "Aug 2023",
+      "end_date": "Dec 2024",
+      "company": "TKAI Lab, USF · Tampa, FL",
+      "responsibilities": "Collected and cleaned 140,000 insurance calls, created new variables, and used sentiment analysis and statistical methods to study how an AI note-taking tool affects agent behavior.\nSet up a controlled experiment where a Retell AI agent simulated the customer side of calls, and hired participants through Prolific to act as agents, comparing behavior with and without AI present.\nBuilt a UI to run the simulation, keeping data collection consistent across all participants.",
+      "order": 3
+    }
+  },
+  {
+    "model": "home.projectssection",
+    "pk": 1,
+    "fields": {
+      "description": ""
+    }
+  },
+  {
+    "model": "home.project",
+    "pk": 1,
+    "fields": {
+      "title": "Qualitative Analysis",
+      "slug": "qualitative-analysis",
+      "category": "filter-zweig",
+      "image_path": "img/portfolio/preview/qual_analysis_preview.png",
+      "order": 1,
+      "short_description": "A Django app that analyzes employee feedback from \"Best Firms to Work For\" surveys using fine-tuned GPT-4o-mini models, providing sentiment classification, response summarization, and key theme extraction for participating companies.",
+      "full_description": "<h4>Key Features:</h4><ul><li><strong>Sentiment Classification:</strong> Categorizes responses as Positive, Negative, or Outliers</li><li><strong>Category Summarization:</strong> Generates summaries for six survey categories using fine-tuned models</li><li><strong>Overlap Detection:</strong> Identifies responses related to multiple categories</li><li><strong>Strengths &amp; Weaknesses Analysis:</strong> Extracts top three positive and negative themes</li><li><strong>User-Friendly Interface:</strong> Frontend displaying sentiment breakdowns and insights</li></ul>",
+      "info_category": "Machine Learning & Data Analysis",
+      "info_client": "Zweig Group",
+      "info_date": "2024",
+      "info_technologies": "Django, GPT-4o-mini, Python, OpenAI API",
+      "info_role": "AI Engineer & Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.project",
+    "pk": 3,
+    "fields": {
+      "title": "User Management Dashboard",
+      "slug": "user-management-dashboard",
+      "category": "filter-zweig",
+      "image_path": "img/portfolio/preview/userman_preview.png",
+      "order": 3,
+      "short_description": "An admin dashboard that gives company administrators centralized control over user access, permissions, and platform module visibility — solving a critical security gap where no such oversight existed.",
+      "full_description": "<h4>Key Features:</h4><ul><li><strong>User Access Control:</strong> Manage user access to different platform modules (BFTWF surveys, CDP reports, AI sentiment analysis)</li><li><strong>Role-Based Permissions:</strong> Control administrative privileges and user roles based on organizational hierarchy</li><li><strong>User Activity Monitoring:</strong> Track user activity, account status, and platform usage</li><li><strong>Security Management:</strong> Verify user email addresses and manage account activation</li><li><strong>Organizational Oversight:</strong> Centralized dashboard for all user management operations</li></ul>",
+      "info_category": "Web Development & Admin Dashboard",
+      "info_client": "Zweig Group",
+      "info_date": "2024",
+      "info_technologies": "Django, Python, HTML/CSS, JavaScript",
+      "info_role": "Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.project",
+    "pk": 4,
+    "fields": {
+      "title": "Weekly Orders Automation for Ancap",
+      "slug": "ancap-automation",
+      "category": "filter-freelance",
+      "image_path": "img/portfolio/preview/Ancap_pedidos_preview.png",
+      "order": 4,
+      "short_description": "A Django web app built for a gas station chain in Uruguay to automate their weekly purchase order workflow — replacing a manual process of matching products to suppliers and drafting orders one by one.",
+      "full_description": "<h3>What it does</h3>\n<p>Staff upload their weekly sales Excel file through the app. The system parses the data, cross-references every product code against a supplier database, and automatically groups products into per-supplier orders. Conflicts — products that can come from multiple suppliers — are flagged and resolved interactively by the user. Once finalized, orders can be downloaded as formatted PDFs or sent directly to suppliers via WhatsApp. Every order is saved and searchable in a history log.</p>\n<h3>Features</h3>\n<ul>\n<li>Excel file upload with automatic period extraction and product code parsing</li>\n<li>Auto-assigns products to suppliers based on existing database relationships</li>\n<li>Flags and resolves multi-supplier conflicts via an interactive modal</li>\n<li>Inline quantity editing and product removal before finalizing</li>\n<li>Export per-supplier orders as PDF (one page per supplier, styled with company branding)</li>\n<li>Send orders directly to suppliers via WhatsApp integration</li>\n<li>Full order history with search by period, supplier, or product</li>\n<li>Django admin interface for managing suppliers, products, and order records</li>\n</ul>",
+      "info_category": "Django Web Application",
+      "info_client": "Ancap",
+      "info_date": "2024 – 2026",
+      "info_technologies": "Django, PostgreSQL, Pandas, ReportLab",
+      "info_role": "Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.project",
+    "pk": 6,
+    "fields": {
+      "title": "Reroom",
+      "slug": "reroom",
+      "category": "filter-personal",
+      "image_path": "img/portfolio/preview/re_room_1_preview.png",
+      "order": 6,
+      "short_description": "A Django app that lets users upload photos of their rooms and virtually swap wall paints and floor tiles using GPT image capabilities.",
+      "full_description": "<h4>Key Features:</h4><ul><li><strong>Image Uploads:</strong> Users upload room photos in common formats (JPG/PNG).</li><li><strong>Material Library:</strong> Predefined wall and floor samples for quick try-ons.</li><li><strong>Reference-Based Swap:</strong> Upload a reference room/tile to match style and color.</li><li><strong>Guided GPT Flow:</strong> GPT assists with material selection and transformation prompts.</li><li><strong>Export:</strong> Download transformed images for sharing or saving.</li></ul>",
+      "info_category": "Django Web Application",
+      "info_client": "",
+      "info_date": "2025",
+      "info_technologies": "Django, OpenAI GPT, CV/Segmentation",
+      "info_role": "Full-Stack & AI Engineer"
+    }
+  },
+  {
+    "model": "home.project",
+    "pk": 7,
+    "fields": {
+      "title": "OCR PDF Extractor",
+      "slug": "ocr-pdf-extractor",
+      "category": "filter-freelance",
+      "image_path": "img/portfolio/preview/OCR_v2_preview.png",
+      "order": 7,
+      "short_description": "An OCR pipeline that processes handwritten receipts using a fine-tuned Google model and GPT, extracting structured data from 20,000+ receipts at 90% accuracy for an air conditioning company.",
+      "full_description": "<h4>Key Capabilities:</h4><ul><li><strong>OCR Pipeline:</strong> Fine-tuned Google model with GPT post-processing for handwritten receipts.</li><li><strong>Targeted Extraction:</strong> Pulls structured fields (dates, amounts, items) from unstructured handwritten input.</li><li><strong>Scale:</strong> Processes 20,000+ receipts at ~90% accuracy.</li><li><strong>Validation:</strong> Confidence thresholds and rule checks to flag anomalies.</li><li><strong>Export:</strong> CSV/Excel output for downstream reporting.</li></ul>",
+      "info_category": "Machine Learning & OCR",
+      "info_client": "Air Conditioning Company",
+      "info_date": "2025",
+      "info_technologies": "Python, Google Document AI, GPT, Django",
+      "info_role": "AI Engineer & Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.project",
+    "pk": 8,
+    "fields": {
+      "title": "Corporate Survey",
+      "slug": "corporate-survey",
+      "category": "filter-zweig",
+      "image_path": "img/portfolio/preview/zweig_corp_survey_preview.png",
+      "order": 8,
+      "short_description": "An in-app Corporate Survey system that replaced a $30,000/year SurveyMonkey subscription — giving company administrators a structured, organization-level way to collect workforce feedback entirely in-house.",
+      "full_description": "<p>Built to replace a <strong>$30,000/year SurveyMonkey subscription</strong> — the entire survey workflow now runs in-house, from creation to response collection and reporting.</p><h4>Key Features:</h4><ul><li><strong>Organization-Level Surveys:</strong> Create and manage published corporate surveys by year, with categories, questions, choices, and multi-field question support.</li><li><strong>Role-Based Survey Access:</strong> Control who can take corporate surveys via per-user organization access (staff can view/update everything).</li><li><strong>Admin Dashboard for Progress:</strong> Track response status (draft, in_progress, completed), filter by survey, and monitor completion and required questions at a glance.</li><li><strong>Survey Studio Tools:</strong> Copy existing surveys, reorder questions, and edit the full survey structure including choices and fields.</li><li><strong>Excel Import/Export:</strong> Import survey structure and optionally responses using a SurveyMonkey-style 2-row header format; export responses back to Excel.</li><li><strong>PDF Downloads:</strong> Generate preview PDFs for surveys and formatted response PDFs per organization.</li><li><strong>Change Detection on Submit:</strong> Uses a deterministic answers hash to warn on unchanged submissions and supports force resubmit.</li></ul>",
+      "info_category": "Django Web Application",
+      "info_client": "Zweig Group",
+      "info_date": "2026",
+      "info_technologies": "Django, PostgreSQL, Python, Pandas, LaTeX",
+      "info_role": "Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.project",
+    "pk": 9,
+    "fields": {
+      "title": "Pickleball Video Coaching",
+      "slug": "pickleball-video-coaching",
+      "category": "filter-personal",
+      "image_path": "img/portfolio/preview/pickleball_preview.png",
+      "order": 9,
+      "short_description": "An in-app Pickleball Video Coaching platform that helps coaches review client submissions with timestamped annotations, drawings, and structured feedback, while clients track goals and progress in one place.",
+      "full_description": "<p>Built to replace scattered video review workflows by keeping coaching, practice assignments, and improvement metrics connected — from video uploads and compare/reference clips to goals, skill progress, and achievement tracking.</p><h4>Key Features:</h4><ul><li><strong>Coach + Client Roles:</strong> Coach-driven review workflow; client sees published annotations and their progress.</li><li><strong>Video Review Workflow:</strong> Videos move through statuses like pending, reviewed, and needs_revision.</li><li><strong>Timestamped Annotations:</strong> Coach adds notes and drawing data to specific moments, then publishes.</li><li><strong>Threaded Annotation Replies:</strong> Follow-up feedback stays tied to the original timestamp.</li><li><strong>Compare Clips + Coach Cam Overlays:</strong> Upload reference footage and PiP coach recordings that appear at set times.</li><li><strong>Goal and Task Tracking:</strong> Client progress (0–100) with goal completion and coach-managed tasks.</li><li><strong>Skill Progress + Milestones:</strong> Quantified improvement across stored skill levels and achievements.</li><li><strong>Pro Video Library + Recommendations:</strong> Coaches curate pro content by category and send targeted picks.</li></ul>",
+      "info_category": "Django Web Application",
+      "info_client": "",
+      "info_date": "2026",
+      "info_technologies": "Django, PostgreSQL, Python, JavaScript",
+      "info_role": "Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.project",
+    "pk": 10,
+    "fields": {
+      "title": "Year-Over-Year Trends",
+      "slug": "zweig-yoy-trends",
+      "category": "filter-zweig",
+      "image_path": "img/portfolio/preview/zweig_trends_preview.png",
+      "order": 10,
+      "short_description": "A Django-powered feature within the Best Firms to Work For survey platform that visualizes how employee sentiment has shifted across up to five consecutive survey years.",
+      "full_description": "<h3>What it does</h3>\n<p>A Django-powered feature within the Best Firms to Work For survey platform that visualizes how employee sentiment has shifted across up to five consecutive survey years, enabling companies to track progress and identify patterns over time.</p>\n<h3>Key Features</h3>\n<ul>\n<li>Question-Level Trends: Multi-line charts showing how response distributions evolved year-over-year for each survey question</li>\n<li>Category-Level Trends: Single-line trend charts with YOY delta badges (▲/▼) indicating changes per survey category</li>\n<li>Smart Data Handling: Gracefully handles missing years with dashed gap segments and placeholder datasets, keeping charts readable even with incomplete history</li>\n<li>Interactive Filtering: Clicking a response option in the bar chart highlights its corresponding trend line, dimming all others for focused comparison</li>\n<li>Five-Year Cap: Automatically surfaces only the most recent five years of data to keep charts clean and relevant</li>\n</ul>",
+      "info_category": "Data Visualization & Analytics",
+      "info_client": "Zweig Group",
+      "info_date": "2024",
+      "info_technologies": "Django, Chart.js, Python, JavaScript",
+      "info_role": "Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.project",
+    "pk": 11,
+    "fields": {
+      "title": "Supplier & Product Performance Dashboard",
+      "slug": "mvd-refrescos-dashboard",
+      "category": "filter-freelance",
+      "image_path": "img/portfolio/preview/mvd_refrescos_preview.png",
+      "order": 11,
+      "short_description": "A multi-page Power BI report built for ANCAP to replace manual Excel tracking with an interactive dashboard for analyzing supplier purchasing and sales performance over time.",
+      "full_description": "<h3>What it does</h3><p>The dashboard ingests five years of historical purchase and sales data (2021–2025) and surfaces product-level and year-over-year performance metrics through interactive visuals. Stakeholders can filter by supplier, product, year, and activity range to drill into specific trends — from overall volume down to individual SKU risk flags.</p><h3>Features</h3><ul><li>KPI cards for total ventas, total compras, K Ratio (Vta/Cpa), active suppliers, and product count — each with YOY delta badges vs. the prior year</li><li>Multi-year trend line chart comparing ventas vs. compras from 2021 through 2025</li><li>Product-level table with K ratio, units sold, units purchased, and unit delta per year — with conditional formatting highlighting at-risk products (low margin + no inventory deficit)</li><li>Supplier slicer with a “years active” range filter instead of raw year selection</li><li>K Vta/Cpa area chart showing margin efficiency trend over time per supplier</li><li>Horizontal bar charts for products active per year and K ratio by year</li><li>Full ANCAP brand theme — navy background, gold accents — built via a custom JSON theme file, rebuilt from scratch after a OneDrive sync corruption destroyed the original .pbix</li><li>DAX measures for K ratio, YOY comparisons, unit diff, supplier year count, and a product risk flag (“At Risk” when K &lt; 1.1 and unit diff &ge; 0)</li></ul>",
+      "info_category": "Data Visualization & Analytics",
+      "info_client": "Ancap",
+      "info_date": "2025",
+      "info_technologies": "Power BI, DAX, Excel",
+      "info_role": "Full-Stack Developer"
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 14,
+    "fields": {
+      "project": 6,
+      "image_path": "img/portfolio/slider/re_room_1_slider.png",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 15,
+    "fields": {
+      "project": 6,
+      "image_path": "img/portfolio/slider/re_room_2_slider.png",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 37,
+    "fields": {
+      "project": 4,
+      "image_path": "img/portfolio/slider/Ancap_pedidos_slider.png",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 38,
+    "fields": {
+      "project": 4,
+      "image_path": "img/portfolio/slider/Ancap_proveedores_slider.png",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 39,
+    "fields": {
+      "project": 4,
+      "image_path": "img/portfolio/slider/Ancap_login_new_slider.png",
+      "order": 3
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 40,
+    "fields": {
+      "project": 3,
+      "image_path": "img/portfolio/slider/userman_1_slider.png",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 41,
+    "fields": {
+      "project": 3,
+      "image_path": "img/portfolio/slider/userman_2_slider.png",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 44,
+    "fields": {
+      "project": 7,
+      "image_path": "img/portfolio/slider/OCR_v2_slider.png",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 45,
+    "fields": {
+      "project": 9,
+      "image_path": "img/portfolio/slider/pickleball_1_slider.png",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 46,
+    "fields": {
+      "project": 9,
+      "image_path": "img/portfolio/slider/pickleball_2_slider.png",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 47,
+    "fields": {
+      "project": 9,
+      "image_path": "img/portfolio/slider/pickleball_3_slider.png",
+      "order": 3
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 48,
+    "fields": {
+      "project": 9,
+      "image_path": "img/portfolio/slider/pickleball_4_slider.png",
+      "order": 4
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 49,
+    "fields": {
+      "project": 8,
+      "image_path": "img/portfolio/slider/zweig_survey_1_slider.png",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 50,
+    "fields": {
+      "project": 8,
+      "image_path": "img/portfolio/slider/zweig_survey_2_slider.png",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 51,
+    "fields": {
+      "project": 8,
+      "image_path": "img/portfolio/slider/zweig_survey_3_slider.png",
+      "order": 3
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 52,
+    "fields": {
+      "project": 8,
+      "image_path": "img/portfolio/slider/zweig_survey_4_slider.png",
+      "order": 4
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 53,
+    "fields": {
+      "project": 8,
+      "image_path": "img/portfolio/slider/zweig_survey_5_slider.png",
+      "order": 5
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 54,
+    "fields": {
+      "project": 10,
+      "image_path": "img/portfolio/slider/zweig_trends_1_slider.png",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 55,
+    "fields": {
+      "project": 10,
+      "image_path": "img/portfolio/slider/zweig_trends_2_slider.png",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 56,
+    "fields": {
+      "project": 1,
+      "image_path": "img/portfolio/slider/qual_analysis_1_slider.png",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 57,
+    "fields": {
+      "project": 1,
+      "image_path": "img/portfolio/slider/qual_analysis_2_slider.png",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 58,
+    "fields": {
+      "project": 11,
+      "image_path": "img/portfolio/slider/mvd_refrescos_1_slider.png",
+      "order": 1
+    }
+  },
+  {
+    "model": "home.projectimage",
+    "pk": 59,
+    "fields": {
+      "project": 11,
+      "image_path": "img/portfolio/slider/mvd_refrescos_2_slider.png",
+      "order": 2
+    }
+  },
+  {
+    "model": "home.contactsection",
+    "pk": 1,
+    "fields": {
+      "description": "Feel free to reach out — whether it's a project, a question, or just to connect.",
+      "location": "Naples, Florida, United States",
+      "email": "gerardowibmer@gmail.com",
+      "phone": "315-766-7504",
+      "linkedin_url": "https://www.linkedin.com/in/gwibmer/",
+      "linkedin_label": "linkedin.com/in/gwibmer"
+    }
   }
-},
-{
-  "model": "home.aboutsection",
-  "pk": 1,
-  "fields": {
-    "description": "I'm a software engineer with an MS in Computer Engineering from USF (December 2024). I build data pipelines, full-stack web apps, and AI tools using Python, Django, React, PostgreSQL, and Docker. I also work on agentic AI pipelines — multi-step systems where models reason through problems and take action autonomously. I've shipped projects across research, enterprise software, and small business freelance work.",
-    "title": "AI & Full-Stack Engineer",
-    "linkedin_url": "https://www.linkedin.com/in/gwibmer/",
-    "linkedin_label": "linkedin.com/in/gwibmer",
-    "phone": "315‑766‑7504",
-    "email": "gerardowibmer@gmail.com",
-    "degree": "Computer Science / Software Engineering",
-    "location": "Naples, Florida, United States",
-    "status": ""
-  }
-},
-{
-  "model": "home.skillssection",
-  "pk": 1,
-  "fields": {
-    "description": ""
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 1,
-  "fields": {
-    "name": "Python",
-    "category": "Languages",
-    "order": 1
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 2,
-  "fields": {
-    "name": "JavaScript",
-    "category": "Languages",
-    "order": 2
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 3,
-  "fields": {
-    "name": "SQL",
-    "category": "Languages",
-    "order": 3
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 5,
-  "fields": {
-    "name": "HTML / CSS",
-    "category": "Languages",
-    "order": 5
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 6,
-  "fields": {
-    "name": "Django",
-    "category": "Frameworks & Libraries",
-    "order": 1
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 7,
-  "fields": {
-    "name": "React",
-    "category": "Frameworks & Libraries",
-    "order": 2
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 8,
-  "fields": {
-    "name": "PyTorch",
-    "category": "Frameworks & Libraries",
-    "order": 3
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 9,
-  "fields": {
-    "name": "Pandas",
-    "category": "Frameworks & Libraries",
-    "order": 4
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 10,
-  "fields": {
-    "name": "NumPy",
-    "category": "Frameworks & Libraries",
-    "order": 5
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 11,
-  "fields": {
-    "name": "PostgreSQL",
-    "category": "Tools & Platforms",
-    "order": 1
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 12,
-  "fields": {
-    "name": "Git",
-    "category": "Tools & Platforms",
-    "order": 2
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 13,
-  "fields": {
-    "name": "Docker",
-    "category": "Tools & Platforms",
-    "order": 3
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 14,
-  "fields": {
-    "name": "Kubernetes",
-    "category": "Tools & Platforms",
-    "order": 4
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 15,
-  "fields": {
-    "name": "Google Colab",
-    "category": "Tools & Platforms",
-    "order": 5
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 16,
-  "fields": {
-    "name": "NLP",
-    "category": "AI / ML",
-    "order": 1
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 17,
-  "fields": {
-    "name": "LLMs",
-    "category": "AI / ML",
-    "order": 2
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 18,
-  "fields": {
-    "name": "Sentiment Analysis",
-    "category": "AI / ML",
-    "order": 3
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 19,
-  "fields": {
-    "name": "OCR",
-    "category": "AI / ML",
-    "order": 4
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 20,
-  "fields": {
-    "name": "Fine-tuning",
-    "category": "AI / ML",
-    "order": 5
-  }
-},
-{
-  "model": "home.skill",
-  "pk": 21,
-  "fields": {
-    "name": "Power BI",
-    "category": "Tools & Platforms",
-    "order": 6
-  }
-},
-{
-  "model": "home.resumesummary",
-  "pk": 1,
-  "fields": {
-    "section_description": "",
-    "name": "Gerardo Wibmer",
-    "subtitle": "AI & Full-Stack Engineer · Tampa, FL",
-    "summary_text": "Master's in Computer Engineering with hands-on experience building AI-enabled, data-driven applications. At Zweig Group and USF's TKAI Lab I've automated workflows, applied NLP to real-world datasets, and built full-stack tools using Python, Django, React, and PostgreSQL.",
-    "location": "Tampa, FL",
-    "linkedin_url": "https://www.linkedin.com/in/gwibmer/",
-    "github_url": "https://github.com/gwibmer"
-  }
-},
-{
-  "model": "home.education",
-  "pk": 1,
-  "fields": {
-    "degree": "MS, Computer Engineering",
-    "start_year": "Aug 2023",
-    "end_year": "Dec 2024",
-    "institution": "University of South Florida",
-    "details": "GPA 3.83",
-    "order": 1
-  }
-},
-{
-  "model": "home.education",
-  "pk": 2,
-  "fields": {
-    "degree": "BS, Computer Science",
-    "start_year": "Aug 2020",
-    "end_year": "May 2023",
-    "institution": "University of South Florida",
-    "details": "GPA 3.45",
-    "order": 2
-  }
-},
-{
-  "model": "home.experience",
-  "pk": 1,
-  "fields": {
-    "title": "Data and Research Analyst",
-    "start_date": "Jan 2025",
-    "end_date": "Present",
-    "company": "Zweig Group · Naples, FL (Remote)",
-    "responsibilities": "Built an in-house survey platform to collect data across 11 industry reports in the AEC sector, replacing SurveyMonkey.\nApplied NLP techniques to fine-tune models for sentiment analysis and classification of open-ended survey responses.\nDeveloped an M&A web app allowing smaller AEC firms to buy and sell companies based on demographic and industry data.",
-    "order": 1
-  }
-},
-{
-  "model": "home.experience",
-  "pk": 2,
-  "fields": {
-    "title": "Data and Research Intern",
-    "start_date": "May 2024",
-    "end_date": "Dec 2024",
-    "company": "Zweig Group · Tampa, FL",
-    "responsibilities": "Built ETL pipelines to extract, transform, and load survey data, automating the generation of reports delivered to AEC industry clients.\nFine-tuned a GPT model to classify open-ended employee responses, providing companies with deeper insights into workforce engagement.\nDesigned and integrated a UI within the internal platform to display sentiment results, enabling intuitive interpretation of employee feedback at scale.",
-    "order": 2
-  }
-},
-{
-  "model": "home.experience",
-  "pk": 3,
-  "fields": {
-    "title": "Research Assistant",
-    "start_date": "Aug 2023",
-    "end_date": "Dec 2024",
-    "company": "TKAI Lab, USF · Tampa, FL",
-    "responsibilities": "Collected and cleaned 140,000 insurance calls, created new variables, and used sentiment analysis and statistical methods to study how an AI note-taking tool affects agent behavior.\nSet up a controlled experiment where a Retell AI agent simulated the customer side of calls, and hired participants through Prolific to act as agents, comparing behavior with and without AI present.\nBuilt a UI to run the simulation, keeping data collection consistent across all participants.",
-    "order": 3
-  }
-},
-{
-  "model": "home.projectssection",
-  "pk": 1,
-  "fields": {
-    "description": ""
-  }
-},
-{
-  "model": "home.project",
-  "pk": 1,
-  "fields": {
-    "title": "Qualitative Analysis",
-    "slug": "qualitative-analysis",
-    "category": "filter-zweig",
-    "image_path": "img/portfolio/preview/qual_analysis_preview.png",
-    "order": 1,
-    "short_description": "A Django app that analyzes employee feedback from \"Best Firms to Work For\" surveys using fine-tuned GPT-4o-mini models, providing sentiment classification, response summarization, and key theme extraction for participating companies.",
-    "full_description": "<h4>Key Features:</h4><ul><li><strong>Sentiment Classification:</strong> Categorizes responses as Positive, Negative, or Outliers</li><li><strong>Category Summarization:</strong> Generates summaries for six survey categories using fine-tuned models</li><li><strong>Overlap Detection:</strong> Identifies responses related to multiple categories</li><li><strong>Strengths &amp; Weaknesses Analysis:</strong> Extracts top three positive and negative themes</li><li><strong>User-Friendly Interface:</strong> Frontend displaying sentiment breakdowns and insights</li></ul>",
-    "info_category": "Machine Learning & Data Analysis",
-    "info_client": "Zweig Group",
-    "info_date": "2024",
-    "info_technologies": "Django, GPT-4o-mini, Python, OpenAI API",
-    "info_role": "AI Engineer & Full-Stack Developer"
-  }
-},
-{
-  "model": "home.project",
-  "pk": 3,
-  "fields": {
-    "title": "User Management Dashboard",
-    "slug": "user-management-dashboard",
-    "category": "filter-zweig",
-    "image_path": "img/portfolio/preview/userman_preview.png",
-    "order": 3,
-    "short_description": "An admin dashboard that gives company administrators centralized control over user access, permissions, and platform module visibility — solving a critical security gap where no such oversight existed.",
-    "full_description": "<h4>Key Features:</h4><ul><li><strong>User Access Control:</strong> Manage user access to different platform modules (BFTWF surveys, CDP reports, AI sentiment analysis)</li><li><strong>Role-Based Permissions:</strong> Control administrative privileges and user roles based on organizational hierarchy</li><li><strong>User Activity Monitoring:</strong> Track user activity, account status, and platform usage</li><li><strong>Security Management:</strong> Verify user email addresses and manage account activation</li><li><strong>Organizational Oversight:</strong> Centralized dashboard for all user management operations</li></ul>",
-    "info_category": "Web Development & Admin Dashboard",
-    "info_client": "Zweig Group",
-    "info_date": "2024",
-    "info_technologies": "Django, Python, HTML/CSS, JavaScript",
-    "info_role": "Full-Stack Developer"
-  }
-},
-{
-  "model": "home.project",
-  "pk": 4,
-  "fields": {
-    "title": "Weekly Orders Automation for Ancap",
-    "slug": "ancap-automation",
-    "category": "filter-freelance",
-    "image_path": "img/portfolio/preview/Ancap_pedidos_preview.png",
-    "order": 4,
-    "short_description": "A Django web app built for a gas station chain in Uruguay to automate their weekly purchase order workflow — replacing a manual process of matching products to suppliers and drafting orders one by one.",
-    "full_description": "<h3>What it does</h3>\n<p>Staff upload their weekly sales Excel file through the app. The system parses the data, cross-references every product code against a supplier database, and automatically groups products into per-supplier orders. Conflicts — products that can come from multiple suppliers — are flagged and resolved interactively by the user. Once finalized, orders can be downloaded as formatted PDFs or sent directly to suppliers via WhatsApp. Every order is saved and searchable in a history log.</p>\n<h3>Features</h3>\n<ul>\n<li>Excel file upload with automatic period extraction and product code parsing</li>\n<li>Auto-assigns products to suppliers based on existing database relationships</li>\n<li>Flags and resolves multi-supplier conflicts via an interactive modal</li>\n<li>Inline quantity editing and product removal before finalizing</li>\n<li>Export per-supplier orders as PDF (one page per supplier, styled with company branding)</li>\n<li>Send orders directly to suppliers via WhatsApp integration</li>\n<li>Full order history with search by period, supplier, or product</li>\n<li>Django admin interface for managing suppliers, products, and order records</li>\n</ul>",
-    "info_category": "Django Web Application",
-    "info_client": "Ancap",
-    "info_date": "2024 – 2026",
-    "info_technologies": "Django, PostgreSQL, Pandas, ReportLab",
-    "info_role": "Full-Stack Developer"
-  }
-},
-{
-  "model": "home.project",
-  "pk": 6,
-  "fields": {
-    "title": "Reroom",
-    "slug": "reroom",
-    "category": "filter-personal",
-    "image_path": "img/portfolio/preview/re_room_1_preview.png",
-    "order": 6,
-    "short_description": "A Django app that lets users upload photos of their rooms and virtually swap wall paints and floor tiles using GPT image capabilities.",
-    "full_description": "<h4>Key Features:</h4><ul><li><strong>Image Uploads:</strong> Users upload room photos in common formats (JPG/PNG).</li><li><strong>Material Library:</strong> Predefined wall and floor samples for quick try-ons.</li><li><strong>Reference-Based Swap:</strong> Upload a reference room/tile to match style and color.</li><li><strong>Guided GPT Flow:</strong> GPT assists with material selection and transformation prompts.</li><li><strong>Export:</strong> Download transformed images for sharing or saving.</li></ul>",
-    "info_category": "Django Web Application",
-    "info_client": "",
-    "info_date": "2025",
-    "info_technologies": "Django, OpenAI GPT, CV/Segmentation",
-    "info_role": "Full-Stack & AI Engineer"
-  }
-},
-{
-  "model": "home.project",
-  "pk": 7,
-  "fields": {
-    "title": "OCR PDF Extractor",
-    "slug": "ocr-pdf-extractor",
-    "category": "filter-freelance",
-    "image_path": "img/portfolio/preview/OCR_v2_preview.png",
-    "order": 7,
-    "short_description": "An OCR pipeline that processes handwritten receipts using a fine-tuned Google model and GPT, extracting structured data from 20,000+ receipts at 90% accuracy for an air conditioning company.",
-    "full_description": "<h4>Key Capabilities:</h4><ul><li><strong>OCR Pipeline:</strong> Fine-tuned Google model with GPT post-processing for handwritten receipts.</li><li><strong>Targeted Extraction:</strong> Pulls structured fields (dates, amounts, items) from unstructured handwritten input.</li><li><strong>Scale:</strong> Processes 20,000+ receipts at ~90% accuracy.</li><li><strong>Validation:</strong> Confidence thresholds and rule checks to flag anomalies.</li><li><strong>Export:</strong> CSV/Excel output for downstream reporting.</li></ul>",
-    "info_category": "Machine Learning & OCR",
-    "info_client": "Air Conditioning Company",
-    "info_date": "2025",
-    "info_technologies": "Python, Google Document AI, GPT, Django",
-    "info_role": "AI Engineer & Full-Stack Developer"
-  }
-},
-{
-  "model": "home.project",
-  "pk": 8,
-  "fields": {
-    "title": "Corporate Survey",
-    "slug": "corporate-survey",
-    "category": "filter-zweig",
-    "image_path": "img/portfolio/preview/zweig_corp_survey_preview.png",
-    "order": 8,
-    "short_description": "An in-app Corporate Survey system that replaced a $30,000/year SurveyMonkey subscription — giving company administrators a structured, organization-level way to collect workforce feedback entirely in-house.",
-    "full_description": "<p>Built to replace a <strong>$30,000/year SurveyMonkey subscription</strong> — the entire survey workflow now runs in-house, from creation to response collection and reporting.</p><h4>Key Features:</h4><ul><li><strong>Organization-Level Surveys:</strong> Create and manage published corporate surveys by year, with categories, questions, choices, and multi-field question support.</li><li><strong>Role-Based Survey Access:</strong> Control who can take corporate surveys via per-user organization access (staff can view/update everything).</li><li><strong>Admin Dashboard for Progress:</strong> Track response status (draft, in_progress, completed), filter by survey, and monitor completion and required questions at a glance.</li><li><strong>Survey Studio Tools:</strong> Copy existing surveys, reorder questions, and edit the full survey structure including choices and fields.</li><li><strong>Excel Import/Export:</strong> Import survey structure and optionally responses using a SurveyMonkey-style 2-row header format; export responses back to Excel.</li><li><strong>PDF Downloads:</strong> Generate preview PDFs for surveys and formatted response PDFs per organization.</li><li><strong>Change Detection on Submit:</strong> Uses a deterministic answers hash to warn on unchanged submissions and supports force resubmit.</li></ul>",
-    "info_category": "Django Web Application",
-    "info_client": "Zweig Group",
-    "info_date": "2026",
-    "info_technologies": "Django, PostgreSQL, Python, Pandas, LaTeX",
-    "info_role": "Full-Stack Developer"
-  }
-},
-{
-  "model": "home.project",
-  "pk": 9,
-  "fields": {
-    "title": "Pickleball Video Coaching",
-    "slug": "pickleball-video-coaching",
-    "category": "filter-personal",
-    "image_path": "img/portfolio/preview/pickleball_preview.png",
-    "order": 9,
-    "short_description": "An in-app Pickleball Video Coaching platform that helps coaches review client submissions with timestamped annotations, drawings, and structured feedback, while clients track goals and progress in one place.",
-    "full_description": "<p>Built to replace scattered video review workflows by keeping coaching, practice assignments, and improvement metrics connected — from video uploads and compare/reference clips to goals, skill progress, and achievement tracking.</p><h4>Key Features:</h4><ul><li><strong>Coach + Client Roles:</strong> Coach-driven review workflow; client sees published annotations and their progress.</li><li><strong>Video Review Workflow:</strong> Videos move through statuses like pending, reviewed, and needs_revision.</li><li><strong>Timestamped Annotations:</strong> Coach adds notes and drawing data to specific moments, then publishes.</li><li><strong>Threaded Annotation Replies:</strong> Follow-up feedback stays tied to the original timestamp.</li><li><strong>Compare Clips + Coach Cam Overlays:</strong> Upload reference footage and PiP coach recordings that appear at set times.</li><li><strong>Goal and Task Tracking:</strong> Client progress (0–100) with goal completion and coach-managed tasks.</li><li><strong>Skill Progress + Milestones:</strong> Quantified improvement across stored skill levels and achievements.</li><li><strong>Pro Video Library + Recommendations:</strong> Coaches curate pro content by category and send targeted picks.</li></ul>",
-    "info_category": "Django Web Application",
-    "info_client": "",
-    "info_date": "2026",
-    "info_technologies": "Django, PostgreSQL, Python, JavaScript",
-    "info_role": "Full-Stack Developer"
-  }
-},
-{
-  "model": "home.project",
-  "pk": 10,
-  "fields": {
-    "title": "Year-Over-Year Trends",
-    "slug": "zweig-yoy-trends",
-    "category": "filter-zweig",
-    "image_path": "img/portfolio/preview/zweig_trends_preview.png",
-    "order": 10,
-    "short_description": "A Django-powered feature within the Best Firms to Work For survey platform that visualizes how employee sentiment has shifted across up to five consecutive survey years.",
-    "full_description": "<h3>What it does</h3>\n<p>A Django-powered feature within the Best Firms to Work For survey platform that visualizes how employee sentiment has shifted across up to five consecutive survey years, enabling companies to track progress and identify patterns over time.</p>\n<h3>Key Features</h3>\n<ul>\n<li>Question-Level Trends: Multi-line charts showing how response distributions evolved year-over-year for each survey question</li>\n<li>Category-Level Trends: Single-line trend charts with YOY delta badges (▲/▼) indicating changes per survey category</li>\n<li>Smart Data Handling: Gracefully handles missing years with dashed gap segments and placeholder datasets, keeping charts readable even with incomplete history</li>\n<li>Interactive Filtering: Clicking a response option in the bar chart highlights its corresponding trend line, dimming all others for focused comparison</li>\n<li>Five-Year Cap: Automatically surfaces only the most recent five years of data to keep charts clean and relevant</li>\n</ul>",
-    "info_category": "Data Visualization & Analytics",
-    "info_client": "Zweig Group",
-    "info_date": "2024",
-    "info_technologies": "Django, Chart.js, Python, JavaScript",
-    "info_role": "Full-Stack Developer"
-  }
-},
-{
-  "model": "home.project",
-  "pk": 11,
-  "fields": {
-    "title": "Supplier & Product Performance Dashboard",
-    "slug": "mvd-refrescos-dashboard",
-    "category": "filter-freelance",
-    "image_path": "img/portfolio/preview/mvd_refrescos_preview.png",
-    "order": 11,
-    "short_description": "A multi-page Power BI report built for ANCAP's supplier Montevideo Refrescos S.A. to replace manual Excel tracking with an interactive dashboard for analyzing purchasing and sales performance over time.",
-    "full_description": "<h3>What it does</h3><p>The dashboard ingests five years of historical purchase and sales data (2021–2025) and surfaces product-level and year-over-year performance metrics through interactive visuals. Stakeholders can filter by product, year, and supplier activity range to drill into specific trends — from overall volume down to individual SKU risk flags.</p><h3>Features</h3><ul><li>KPI cards for total ventas, total compras, K Ratio (Vta/Cpa), active suppliers, and product count — each with YOY delta badges vs. the prior year</li><li>Multi-year trend line chart comparing ventas vs. compras from 2021 through 2025</li><li>Product-level table with K ratio, units sold, units purchased, and unit delta per year — with conditional formatting highlighting at-risk products (low margin + no inventory deficit)</li><li>Supplier slicer with a “years active” range filter instead of raw year selection</li><li>K Vta/Cpa area chart showing margin efficiency trend over time per supplier</li><li>Horizontal bar charts for products active per year and K ratio by year</li><li>Full ANCAP brand theme — navy background, gold accents — built via a custom JSON theme file, rebuilt from scratch after a OneDrive sync corruption destroyed the original .pbix</li><li>DAX measures for K ratio, YOY comparisons, unit diff, supplier year count, and a product risk flag (“At Risk” when K &lt; 1.1 and unit diff &ge; 0)</li></ul>",
-    "info_category": "Data Visualization & Analytics",
-    "info_client": "Ancap / Montevideo Refrescos S.A.",
-    "info_date": "2025",
-    "info_technologies": "Power BI, DAX, Excel",
-    "info_role": "Full-Stack Developer"
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 14,
-  "fields": {
-    "project": 6,
-    "image_path": "img/portfolio/slider/re_room_1_slider.png",
-    "order": 1
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 15,
-  "fields": {
-    "project": 6,
-    "image_path": "img/portfolio/slider/re_room_2_slider.png",
-    "order": 2
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 37,
-  "fields": {
-    "project": 4,
-    "image_path": "img/portfolio/slider/Ancap_pedidos_slider.png",
-    "order": 1
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 38,
-  "fields": {
-    "project": 4,
-    "image_path": "img/portfolio/slider/Ancap_proveedores_slider.png",
-    "order": 2
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 39,
-  "fields": {
-    "project": 4,
-    "image_path": "img/portfolio/slider/Ancap_login_new_slider.png",
-    "order": 3
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 40,
-  "fields": {
-    "project": 3,
-    "image_path": "img/portfolio/slider/userman_1_slider.png",
-    "order": 1
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 41,
-  "fields": {
-    "project": 3,
-    "image_path": "img/portfolio/slider/userman_2_slider.png",
-    "order": 2
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 44,
-  "fields": {
-    "project": 7,
-    "image_path": "img/portfolio/slider/OCR_v2_slider.png",
-    "order": 1
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 45,
-  "fields": {
-    "project": 9,
-    "image_path": "img/portfolio/slider/pickleball_1_slider.png",
-    "order": 1
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 46,
-  "fields": {
-    "project": 9,
-    "image_path": "img/portfolio/slider/pickleball_2_slider.png",
-    "order": 2
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 47,
-  "fields": {
-    "project": 9,
-    "image_path": "img/portfolio/slider/pickleball_3_slider.png",
-    "order": 3
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 48,
-  "fields": {
-    "project": 9,
-    "image_path": "img/portfolio/slider/pickleball_4_slider.png",
-    "order": 4
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 49,
-  "fields": {
-    "project": 8,
-    "image_path": "img/portfolio/slider/zweig_survey_1_slider.png",
-    "order": 1
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 50,
-  "fields": {
-    "project": 8,
-    "image_path": "img/portfolio/slider/zweig_survey_2_slider.png",
-    "order": 2
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 51,
-  "fields": {
-    "project": 8,
-    "image_path": "img/portfolio/slider/zweig_survey_3_slider.png",
-    "order": 3
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 52,
-  "fields": {
-    "project": 8,
-    "image_path": "img/portfolio/slider/zweig_survey_4_slider.png",
-    "order": 4
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 53,
-  "fields": {
-    "project": 8,
-    "image_path": "img/portfolio/slider/zweig_survey_5_slider.png",
-    "order": 5
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 54,
-  "fields": {
-    "project": 10,
-    "image_path": "img/portfolio/slider/zweig_trends_1_slider.png",
-    "order": 1
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 55,
-  "fields": {
-    "project": 10,
-    "image_path": "img/portfolio/slider/zweig_trends_2_slider.png",
-    "order": 2
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 56,
-  "fields": {
-    "project": 1,
-    "image_path": "img/portfolio/slider/qual_analysis_1_slider.png",
-    "order": 1
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 57,
-  "fields": {
-    "project": 1,
-    "image_path": "img/portfolio/slider/qual_analysis_2_slider.png",
-    "order": 2
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 58,
-  "fields": {
-    "project": 11,
-    "image_path": "img/portfolio/slider/mvd_refrescos_1_slider.png",
-    "order": 1
-  }
-},
-{
-  "model": "home.projectimage",
-  "pk": 59,
-  "fields": {
-    "project": 11,
-    "image_path": "img/portfolio/slider/mvd_refrescos_2_slider.png",
-    "order": 2
-  }
-},
-{
-  "model": "home.contactsection",
-  "pk": 1,
-  "fields": {
-    "description": "Feel free to reach out — whether it's a project, a question, or just to connect.",
-    "location": "Naples, Florida, United States",
-    "email": "gerardowibmer@gmail.com",
-    "phone": "315-766-7504",
-    "linkedin_url": "https://www.linkedin.com/in/gwibmer/",
-    "linkedin_label": "linkedin.com/in/gwibmer"
-  }
-}
 ]
